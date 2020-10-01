@@ -14,6 +14,7 @@ def pop_with_args(array, num = 2)
   newArray = []
   num.times do
     ele = array.pop
-    newArray.
+    newArray.push(ele)
   end
+  newArray
 end
