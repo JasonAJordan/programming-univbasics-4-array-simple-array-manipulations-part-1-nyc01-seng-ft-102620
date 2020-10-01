@@ -22,3 +22,12 @@ end
 def using_shift(array)
   array.shift
 end
+
+def shift_with_args(array, num = 2)
+  newArray = []
+  num.times do
+    ele = array.shift
+    newArray.push(ele)
+  end
+  newArray
+end
